@@ -69,26 +69,26 @@
 
             });
       </script>
-      <script src="./index.js" type="text/javascript">
+     <script type="text/javascript">
 
-        let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : 'en';
-      
-        document.querySelector('#language-selector').value = lang;
-      
-        document.querySelector('#language-selector').addEventListener('change', function() {
+      let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : 'en';
+    
+      document.querySelector('#language-selector').value = lang;
+    
+      document.querySelector('#language-selector').addEventListener('change', function() {
 
-          let lang = this.value;
+        let lang = this.value;
 
-          let newUrl = '';
-      
-          if (lang === 'en') {
-            newUrl = '/';
-          } else {
-            newUrl = '/mk/home-mk.html';
-          }
+        let newUrl = '';
+    
+        if (lang === 'en') {
+          newUrl = '/';
+        } else {
+          newUrl = '/mk/home-mk.html';
+        }
 
-          window.location.href = newUrl;
-        });
-      </script>
+        window.location.href = newUrl;
+      });
+    </script>
 </body>
 </html>
