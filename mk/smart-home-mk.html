@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>СМАРТ СИСТЕМИ</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="home-mk.html">Дома</a></li>
+              <li><a href="contact-mk.html">Контакт</a></li>
+              <li><a href="about-mk.html">За Нас</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+    <div class="smart-home-heading">
+        <center><h1>СМАРТ СИСТЕМИ</h1></center>
+        <hr class="smart-home-hr">
+    </div>
+    <div class="container">
+  
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+             
+              <div class="swiper-slide"><img src="../images/smart-home6.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../images/smart-home1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../images/smart-home5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="../images/smart-home2.jpg" alt=""></div>
+
+            </div>
+        
+          </div>
+
+    </div>
+    
+    <div class="smart-home">
+        <p>Селкон е реномирана компанија која обезбедува исклучителни услуги за инсталирање системи за паметна автоматизација на домот. Ние нудиме широк спектар на системи вклучувајќи осветлување, безбедност, контрола на климатизацијата и климатизација и забава. Нашиот тим од високо квалификувани и искусни техничари тесно соработува со сопствениците на куќи за да дизајнира и инсталира системи што ги задоволуваат нивните специфични потреби. Селкон е посветен на користење на најновата технологија и опрема за да обезбеди сигурни, ефикасни и лесни за употреба системи. Генерално, Selcon е одличен избор за сопствениците на куќи кои сакаат да ги модернизираат своите домови со паметни системи за автоматизација на домот.</p>
+    </div>
+    <hr>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+            loop: true,
+
+            });
+      </script>
+      <script>
+
+        let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : 'en';
+      
+        document.querySelector('#language-selector').value = lang;
+      
+        document.querySelector('#language-selector').addEventListener('change', function() {
+
+          let lang = this.value;
+
+          let newUrl = '';
+      
+          if (lang === 'en') {
+            newUrl = '/';
+          } else {
+            newUrl = '/mk/home-mk.html';
+          }
+
+          window.location.href = newUrl;
+        });
+      </script>
+</body>
+</html>

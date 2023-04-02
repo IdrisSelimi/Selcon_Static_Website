@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>За Нас</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="home-mk.html">Дома</a></li>
+              <li><a href="contact-mk.html">Контакт</a></li>
+              <li><a href="about-mk.html">За Нас</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+
+    <center><h1>ЗА НАС</h1></center>
+    <hr>
+    <div class="about">
+        <img class="about-logo" src="../images/selcon-logo.png" alt="logo-about">
+        <p>Селкон е ваш доверлив партнер за сите ваши потреби за домашна автоматизација. Нашиот тим од искусни професионалци обезбедува персонализирани и сигурни решенија за да го направат вашиот дом попаметен, поудобен и побезбеден. Од домашна автоматизација и автоматизација на врати до иновативни домофони, ве опфативме.
+
+          Ние работиме со вас за да дизајнираме приспособен систем кој ги задоволува вашите специфични потреби и буџет. Нашиот тим користи најнова технологија и производи од водечки производители за да се осигура дека вашиот систем за домашна автоматизација е сигурен, ефикасен и лесен за користење.
+          
+          Нашите домофони обезбедуваат иновативен систем за домофон кој ви овозможува да комуницирате со посетителите, да го надгледувате вашиот дом од далечина и да го контролирате вашиот систем за домашна автоматизација од каде било. Тие се лесни за употреба, сигурни и нудат исклучителен квалитет на звукот, што ги прави задолжително за секој модерен дом.
+          
+          Во Селкон, разбираме дека секој дом е уникатен и ние сме посветени да ви обезбедиме персонализирана услуга од првичните консултации до инсталацијата и пошироко. Претворете го вашиот дом во паметна, сигурна и удобна оаза со Селкон. Контактирајте не денес за да закажете консултации и да видиме како можеме да го подобриме вашиот животен простор со врвна технологија.</p>
+
+    </div>
+    <hr class="about-hr">
+    
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+      <script>
+
+        let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : 'en';
+      
+        document.querySelector('#language-selector').value = lang;
+      
+        document.querySelector('#language-selector').addEventListener('change', function() {
+
+          let lang = this.value;
+
+          let newUrl = '';
+      
+          if (lang === 'en') {
+            newUrl = '/';
+          } else {
+            newUrl = '/mk/home-mk.html';
+          }
+
+          window.location.href = newUrl;
+        });
+      </script>
+</body>
+</html>

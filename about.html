@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+
+    <center><h1>ABOUT US</h1></center>
+    <hr>
+    <div class="about">
+        <img class="about-logo" src="images/selcon-logo.png" alt="logo-about">
+        <p>Selcon is your trusted partner for all your home automation needs. Our team of experienced professionals provides personalized and reliable solutions to make your home smarter, more convenient, and more secure. From home automation and door automations to innovative domophones, we've got you covered.
+
+            We work with you to design a customized system that meets your specific needs and budget. Our team uses the latest technology and products from leading manufacturers to ensure that your home automation system is reliable, efficient, and user-friendly.
+            
+            Our domophones provide an innovative intercom system that allows you to communicate with visitors, monitor your home remotely, and control your home automation system from anywhere. They are easy to use, reliable, and offer exceptional sound quality, making them a must-have for any modern home.
+            
+            At Selcon, we understand that every home is unique, and we are committed to providing you with personalized service from the initial consultation to installation and beyond. Transform your home into a smart, secure, and comfortable oasis with Selcon. Contact us today to schedule a consultation and see how we can enhance your living space with cutting-edge technology.</p>
+
+    </div>
+    <hr class="about-hr">
+    
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+      <script>
+        const languageSelector = document.getElementById('language-selector');
+      
+        languageSelector.addEventListener('change', () => {
+          const selectedValue = languageSelector.value;
+      
+          if (selectedValue === 'mk') {
+            window.location.href = './mk/home-mk.html';
+          } else {
+            window.location.href = './index.html';
+          }
+        });
+      </script>
+</body>
+</html>

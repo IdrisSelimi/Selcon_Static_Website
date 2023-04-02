@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Intercom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+    <center><strong><h1>VIDEO INTERCOM</h1></strong></center>
+    <hr>
+    <div class="video-intercom">
+        <center>
+        <img class="video-intercom-img" src="images/domophone1.jpg" alt="video-intercom-img">
+        <h3 class="video-intercom-script">Video intercom systems typically consist of an outdoor camera, an indoor monitor, and a speaker/microphone system for two-way communication. When a visitor approaches the building or home, they can press a button on the outdoor camera to initiate a call to the indoor monitor. The occupant can then see and speak with the visitor through the monitor, and determine whether or not to grant them access.
+
+            Some advanced video intercom systems also include features such as facial recognition, remote unlocking capabilities, and integration with home automation systems. This allows users to remotely control access to their property, even when they are not physically present.
+            
+            As a firm that installs video intercoms, Selcon likely provides customized solutions to meet the specific needs of their clients.</h3>
+        </center>
+    </div>
+    <hr>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+      <script>
+        const languageSelector = document.getElementById('language-selector');
+      
+        languageSelector.addEventListener('change', () => {
+          const selectedValue = languageSelector.value;
+      
+          if (selectedValue === 'mk') {
+            window.location.href = './mk/home-mk.html';
+          } else {
+            window.location.href = './index.html';
+          }
+        });
+      </script>
+</body>
+</html>

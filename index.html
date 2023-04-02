@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+    
+    <center><strong><h1>WHAT ARE YOU LOOKING FOR?</h1></strong></center>
+    <hr>
+    <div class="welcome">
+        <center>
+            <h3><a class="door-automation-heading" href="door-automation.html">DOOR AUTOMATION</a></h3>
+            <img class="remote-img" src="images/3566861.png" alt="remote-img">
+            <img class="door-automation-img" src="images/door-automation.png" alt="door-automation">
+            <h3><a class="domophone-heading" href="video-intercom.html">VIDEO INTERCOM</a></h3>
+            <img class="domophone-img" src="images/domophone.png" alt="domophone">
+            <h3><a class="home-automation-heading" href="smart-home.html">SMART HOME</a></h3>
+            <img class="smart-home-img" src="images/smart-home.png" alt="smarthome">
+        </center>
+    </div>
+    <hr>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+      <script>
+        const languageSelector = document.getElementById('language-selector');
+      
+        languageSelector.addEventListener('change', () => {
+          const selectedValue = languageSelector.value;
+      
+          if (selectedValue === 'mk') {
+            window.location.href = './mk/home-mk.html';
+          } else {
+            window.location.href = './index.html';
+          }
+        });
+      </script>
+      
+</body>
+</html>

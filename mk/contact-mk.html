@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <title>Контакт</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="home-mk.html">Дома</a></li>
+              <li><a href="contact-mk.html">Контакт</a></li>
+              <li><a href="about-mk.html">За Нас</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+    <center>
+    <div class="contact">
+        <h1 class="contact-heading-mk">Дали сакате да го изградите вашиот дом од соништата?</h1>
+        <img class="contact-phone-img" src="../images/contact-telephone.png" alt="phone-img">
+        <h3 class="telephone-number">+389 77 848 289</h3>
+        <h3 class="telephone-number2">+389 70 271 594</h3>
+        <img class="contact-email-img" src="../images/contact-email.png" alt="email-img">
+        <h3 class="email">selconautomatic1@gmail.com</h3>
+        <img class="contact-facebook-img" src="../images/contact-facebook.png" alt="facebook-img">
+        <h3 class="facebook-contact">Selcon Automatic</h3> 
+        <img class="contact-whatsapp-img" src="../images/contact-whatsapp.png" alt="whatsapp-img">
+        <h3 class="whatsapp-contact">+389 77 848 289</h3>
+        <img class="contact-viber-img" src="../images/contact-viber.png" alt="viber-img">
+        <h3 class="viber-contact">+389 77 848 289</h3>
+    </center>
+    </div>
+    
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+
+      <script>
+
+        let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : 'en';
+      
+        document.querySelector('#language-selector').value = lang;
+      
+        document.querySelector('#language-selector').addEventListener('change', function() {
+
+          let lang = this.value;
+
+          let newUrl = '';
+      
+          if (lang === 'en') {
+            newUrl = '/';
+          } else {
+            newUrl = '/mk/home-mk.html';
+          }
+
+          window.location.href = newUrl;
+        });
+      </script>
+</body>
+</html>

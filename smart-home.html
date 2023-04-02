@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/selcon-logo.png" alt="logo">
+        <nav>
+          <center>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <select id="language-selector">
+                  <option value="en">EN</option>
+                  <option value="mk">MK</option>
+                </select>
+              </li>
+            </ul>
+          </center>
+        </nav>
+      </header>
+    <div class="smart-home-heading">
+        <center><h1>SMART HOME</h1></center>
+        <hr class="smart-home-hr">
+    </div>
+    <div class="container">
+  
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+             
+              <div class="swiper-slide"><img src="images/smart-home6.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="images/smart-home1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="images/smart-home5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="images/smart-home2.jpg" alt=""></div>
+
+            </div>
+        
+          </div>
+
+    </div>
+    
+    <div class="smart-home">
+        <p>Selcon is a reputable company that provides exceptional services in installing smart home automation systems. We offer a wide range of systems including lighting, security, HVAC control, and entertainment. Our team of highly skilled and experienced technicians work closely with homeowners to design and install systems that meet their specific needs. Selcon is committed to using the latest technology and equipment to provide reliable, efficient, and easy-to-use systems. Overall, Selcon is an excellent choice for homeowners looking to modernize their homes with smart home automation systems.</p>
+    </div>
+    <hr>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+            loop: true,
+
+            });
+      </script>
+      <script>
+        const languageSelector = document.getElementById('language-selector');
+      
+        languageSelector.addEventListener('change', () => {
+          const selectedValue = languageSelector.value;
+      
+          if (selectedValue === 'mk') {
+            window.location.href = './mk/home-mk.html';
+          } else {
+            window.location.href = './index.html';
+          }
+        });
+      </script>
+</body>
+</html>

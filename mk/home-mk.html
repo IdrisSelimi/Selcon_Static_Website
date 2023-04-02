@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=960px">
+    <title>Селкон.мк</title>
+    <link rel="stylesheet" href="../styles.css">
+    
+</head>
+<body>
+  <header>
+    <img class="logo" src="../images/selcon-logo.png" alt="logo">
+    <nav>
+      <center>
+        <ul class="nav-links">
+          <li><a href="home-mk.html">Дома</a></li>
+          <li><a href="contact-mk.html">Контакт</a></li>
+          <li><a href="about-mk.html">За Нас</a></li>
+          <li>
+            <select id="language-selector">
+              <option value="en">EN</option>
+              <option value="mk">MK</option>
+            </select>
+          </li>
+        </ul>
+      </center>
+    </nav>
+  </header>
+
+      <center><strong><h1>ШТО ВИ ТРЕБА?</h1></strong></center>
+    <hr>
+    <div class="welcome">
+        <center>
+            <h3><a class="door-automation-heading" href="door-automation-mk.html">АВТОМАТИКА ЗА ВРАТИ И РАМПИ</a></h3>
+            <img class="remote-img" src="../images/3566861.png" alt="remote-img">
+            <img class="door-automation-img" src="../images/door-automation.png" alt="door-automation">
+            <h3><a class="domophone-heading" href="video-intercom-mk.html">ДОМОФОНИЈА И ВИДЕОДОМОФОНИЈА</a></h3>
+            <img class="domophone-img" src="../images/domophone.png" alt="domophone">
+            <h3><a class="home-automation-heading" href="smart-home-mk.html">СМАРТ СИСТЕМИ</a></h3>
+            <img class="smart-home-img" src="../images/smart-home.png" alt="smarthome">
+        </center>
+    </div>
+    <hr>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://m.facebook.com/Selcon-Automatic-107023102087519/">Facebook</a>
+        <p class="footer-paragraph">© 2023 SELCON.</p>
+      </div>
+
+      <script>
+
+        let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : 'en';
+      
+        document.querySelector('#language-selector').value = lang;
+      
+        document.querySelector('#language-selector').addEventListener('change', function() {
+
+          let lang = this.value;
+
+          let newUrl = '';
+      
+          if (lang === 'en') {
+            newUrl = '/';
+          } else {
+            newUrl = '/mk/home-mk.html';
+          }
+
+          window.location.href = newUrl;
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+.logo{
+    cursor: pointer;
+    width: 350px;
+    height: auto;
+    border-radius: 55px;
+    padding: 40px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: gray;
+}
+button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+h1 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    padding: 80px;
+}
+
+h3 {
+    padding: 40px;
+}
+
+.welcome a {
+    color: black;
+}
+
+.door-automation-img {
+    padding: 20px;
+    width: 250px;
+    margin-top: -40px;
+}
+
+.domophone-img {
+    margin-top: -40px;
+    padding: 20px;
+    width: 250px;
+}
+
+.smart-home-img {
+    margin-top: -40px;
+    padding: 20px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.remote-img {
+    width: 45px;
+    margin-left: -60px
+}
+.bottom-container{
+    position: sticky;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #24252A;
+    height: 160px;
+    padding: 20px;
+
+}
+
+.footer-paragraph{
+    color: #edf0f1;
+    font-size: 25px;
+    padding: 40px;
+}
+.footer-link{
+    color: #edf0f1;
+    font-size: 25px;
+}
+
+.copyright{
+    padding: 15px;
+    color: #edf0f1;
+}
+
+.contact {
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-heading{
+    font-size: 30px;
+}
+
+.contact-phone-img {
+    width: 90px;
+    margin-left: -450px;
+    margin-right: 10px;
+}
+
+.telephone-number {
+    margin-top: -110px;
+    margin-left: -10px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.telephone-number2 {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 440px;
+    margin-top: -111px;
+}
+
+.contact-email-img {
+    width: 90px;
+    margin-left: -450px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.email {
+    margin-top: -110px;
+    margin-left: 220px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-facebook-img {
+    width: 90px;
+    margin-left: -450px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.facebook-contact {
+    margin-top: -110px;
+    margin-left: 64px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-whatsapp-img {
+    width: 90px;
+    margin-left: -450px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.whatsapp-contact {
+    margin-top: -110px;
+    margin-left: -10px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.contact-viber-img {
+    width: 90px;
+    margin-left: -450px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.viber-contact {
+    margin-top: -110px;
+    margin-left: -10px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.about {
+    margin-bottom: 20px;
+    width: fit-content;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.about-hr {
+    margin-bottom: 135px;
+}
+.about-logo {
+    width: 200px;
+    margin-top: -130px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+
+}
+
+.about-img2 {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.gate-automation-img {
+    margin-left: 50px;
+    width: 750px;
+    margin-top: 20px;
+}
+
+.gate-automation {
+    width: 900px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+.sliding-gate-img {
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.sliding-gate {
+    width: 900px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+hr {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 1.5px;
+    background-color: #24252A;
+    
+}
+
+.sliding-gate-h2 {
+    margin-top: 50px;
+}
+
+.swing-gate-h2 {
+    margin-top: 50px;
+}
+
+.road-barrier-h2 {
+    margin-top: 50px;
+}
+
+.road-barrier-img1 {
+    width: 350px;
+    margin-top: 20px;
+    height: 217px;
+}
+
+.road-barrier-img2 { 
+    width: 350px;
+    margin-top: 20px;
+    height: 217px;
+}
+
+.road-barrier-img3 {
+    width: 350px;
+    margin-top: 20px;
+    height: 217px;
+}
+
+.road-barrier {
+    width: 900px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+.garage-h2 {
+    margin-top: 50px;
+}
+
+.garage-img {
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.garage-door {
+    width: 900px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+.door-automation-heading {
+    font-size: 20px;
+}
+
+
+.domophone-heading {
+    font-size: 20px;
+}
+
+.home-automation-heading {
+    font-size: 20px;
+}
+
+.partners-image1 {
+    width: 350px;
+}
+
+.partners-image3 {
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 170px;
+}
+
+.partners-image2 {
+    width: 250px;
+    margin-bottom: 140px;
+}
+
+.partners-hr {
+    margin-top: -120px;
+}
+
+.video-intercom {
+    width: 100%;
+}
+
+.video-intercom-img {
+    width: 550px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.video-intercom-script {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.container {
+    width: 100%;
+    margin-top: -40px;
+    margin-right: 300px;
+}
+
+.swiper-slide img {
+    width: 800px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.swiper-wrapper img {
+    height: 480px;
+}
+
+.smart-home {
+    width: 95%;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.smart-home p {
+    margin-right: 100px;
+    font-size: 23px;
+    width: 100%;
+}
+
+.smart-home-hr {
+    margin-bottom: 65px;
+}
+
+.language-selector {
+    background-color: #f2f2f2;
+    border: none;
+    color: #666;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.language-selector:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.language-selector option[selected] {
+    background-color: #ddd;
+  }
+
+  .contact-heading-mk {
+    font-size: 19px;
+  }
