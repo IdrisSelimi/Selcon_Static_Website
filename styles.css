@@ -7,6 +7,7 @@
     padding: 0;
     top: 100%;
     font-family: "Montserrat", sans-serif;
+
 }
 
 
@@ -77,6 +78,7 @@ h3 {
     width: 250px;
     margin-top: -40px;
 }
+
 
 .domophone-img {
     margin-top: -40px;
@@ -216,15 +218,15 @@ h3 {
     font-size: 18px;
     margin-left: 30px;
     margin-right: 20px;
+    overflow: hidden;
 }
 .about-hr {
     margin-bottom: 135px;
 }
 .about-logo {
     width: 200px;
-    margin-top: -130px;
-    margin-bottom: 100px;
-    margin-left: 0px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -241,8 +243,7 @@ h3 {
 }
 
 .gate-automation {
-    width: 900px;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
@@ -257,7 +258,7 @@ h3 {
 
 .sliding-gate {
     width: 900px;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
@@ -268,7 +269,8 @@ hr {
     border-bottom: 1px solid #333;
     padding: 1.5px;
     background-color: #24252A;
-    
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .sliding-gate-h2 {
@@ -303,7 +305,7 @@ hr {
 
 .road-barrier {
     width: 900px;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
@@ -322,7 +324,7 @@ hr {
 
 .garage-door {
     width: 900px;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
@@ -330,6 +332,10 @@ hr {
 
 .door-automation-heading {
     font-size: 20px;
+}
+.door-automation {
+    margin-right: 40px;
+    overflow: hidden;
 }
 
 
@@ -362,6 +368,7 @@ hr {
 
 .video-intercom {
     width: 100%;
+    overflow: hidden;
 }
 
 .video-intercom-img {
@@ -392,15 +399,16 @@ hr {
 
 .smart-home {
     width: 95%;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+    overflow: hidden;
 }
 
 .smart-home p {
-    margin-right: 100px;
-    font-size: 23px;
+    font-size: 20px;
+    line-height: 1.7;
     width: 100%;
 }
 
@@ -431,3 +439,222 @@ hr {
   .contact-heading-mk {
     font-size: 19px;
   }
+
+  .smart-home-logo {
+    margin-top: 35px;
+  }
+
+  .smart-home-num {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    width: 450px;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 30px;
+  }
+  
+  .swing-gate {
+    margin-left: 40px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .swing-gate:before, .swing-gate:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.swing-gate:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+.sliding-gate-div {
+    margin-left: 40px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .sliding-gate-div:before, .sliding-gate-div:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.sliding-gate-div:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+.road-barrier-div {
+    margin-left: 40px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .road-barrier-div:before, .road-barrier-div:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.road-barrier-div:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+.garage-div {
+    margin-left: 40px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .garage-div:before, .garage-div:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.garage-div:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+.video-intercom-div {
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .video-intercom-div:before, .video-intercom-div:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.video-intercom-div:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+
+.smart-home-div {
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .smart-home-div:before, .smart-home-div:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.smart-home-div:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
