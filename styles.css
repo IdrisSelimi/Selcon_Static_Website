@@ -237,12 +237,12 @@ h3 {
 }
 
 .gate-automation-img {
-    margin-left: 50px;
     width: 750px;
     margin-top: 20px;
 }
 
 .gate-automation {
+    width: 100%;
     margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
@@ -251,13 +251,12 @@ h3 {
 
 .sliding-gate-img {
     width: 750px;
-    margin-left: 50px;
     margin-top: 20px;
     height: 400px;
 }
 
 .sliding-gate {
-    width: 900px;
+    width: 100%;
     margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
@@ -275,6 +274,7 @@ hr {
 
 .sliding-gate-h2 {
     margin-top: 50px;
+    text-align: center;
 }
 
 .swing-gate-h2 {
@@ -283,6 +283,7 @@ hr {
 
 .road-barrier-h2 {
     margin-top: 50px;
+    text-align: center;
 }
 
 .road-barrier-img1 {
@@ -304,7 +305,7 @@ hr {
 }
 
 .road-barrier {
-    width: 900px;
+    width: 100%;
     margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
@@ -313,17 +314,17 @@ hr {
 
 .garage-h2 {
     margin-top: 50px;
+    text-align: center;
 }
 
 .garage-img {
     width: 750px;
-    margin-left: 50px;
     margin-top: 20px;
     height: 400px;
 }
 
 .garage-door {
-    width: 900px;
+    width: 100%;
     margin-left: 0px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
@@ -334,7 +335,6 @@ hr {
     font-size: 20px;
 }
 .door-automation {
-    margin-right: 40px;
     overflow: hidden;
 }
 
@@ -378,6 +378,7 @@ hr {
 }
 
 .video-intercom-script {
+    width: 100%;
     font-size: 17px;
     line-height: 1.7;
 }
@@ -453,7 +454,6 @@ hr {
   }
   
   .swing-gate {
-    margin-left: 40px;
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -487,7 +487,6 @@ hr {
 }
 
 .sliding-gate-div {
-    margin-left: 40px;
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -522,7 +521,6 @@ hr {
 
 
 .road-barrier-div {
-    margin-left: 40px;
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -557,7 +555,6 @@ hr {
 
 
 .garage-div {
-    margin-left: 40px;
     position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
