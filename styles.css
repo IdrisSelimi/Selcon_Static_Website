@@ -7,6 +7,7 @@
     padding: 0;
     top: 100%;
     font-family: "Montserrat", sans-serif;
+    background-color: white;
 
 }
 
@@ -28,6 +29,7 @@ header {
 }
 
 .logo{
+    background-color: #24252A;
     cursor: pointer;
     width: 350px;
     height: auto;
@@ -37,6 +39,7 @@ header {
 
 .nav-links {
     list-style: none;
+    background-color: #24252A;
 }
 
 .nav-links li{
@@ -111,10 +114,12 @@ h3 {
     color: #edf0f1;
     font-size: 25px;
     padding: 40px;
+    background-color: #24252A;
 }
 .footer-link{
     color: #edf0f1;
     font-size: 25px;
+    background-color: #24252A;
 }
 
 .copyright{
@@ -242,6 +247,7 @@ h3 {
 }
 
 .gate-automation {
+    margin-bottom: 10px;
     width: 100%;
     margin-left: 0px;
     font-size: 17px;
@@ -256,6 +262,7 @@ h3 {
 }
 
 .sliding-gate {
+    margin-bottom: 10px;
     width: 100%;
     margin-left: 0px;
     font-size: 17px;
@@ -305,6 +312,7 @@ hr {
 }
 
 .road-barrier {
+    margin-bottom: 10px;
     width: 100%;
     margin-left: 0px;
     font-size: 17px;
@@ -324,6 +332,7 @@ hr {
 }
 
 .garage-door {
+    margin-bottom: 10px;
     width: 100%;
     margin-left: 0px;
     font-size: 17px;
@@ -378,6 +387,7 @@ hr {
 }
 
 .video-intercom-script {
+    margin-bottom: 10px;
     width: 100%;
     font-size: 17px;
     line-height: 1.7;
@@ -399,18 +409,17 @@ hr {
 }
 
 .smart-home {
-    width: 95%;
-    font-size: 20px;
+    width: 100%;
+    font-size: 19px;
     margin-top: 120px;
-    margin-left: 20px;
     margin-bottom: 90px;
     overflow: hidden;
+    line-height: 1.7;
 }
 
 .smart-home p {
-    font-size: 20px;
-    line-height: 1.7;
-    width: 100%;
+    margin-left: 20px;
+    margin-right: 15px;
 }
 
 .smart-home-hr {
@@ -427,7 +436,18 @@ hr {
     margin-left: 10px;
 
 }
-
+li {
+    background-color: #24252A;
+}
+.home-li {
+    background-color: #24252A;
+}
+.contact-li {
+    background-color: #24252A;
+}
+.about-li {
+    background-color: #24252A;
+}
 .language-selector:hover {
     background-color: #ddd;
     cursor: pointer;
@@ -454,204 +474,70 @@ hr {
   }
   
   .swing-gate {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
-
-  .swing-gate:before, .swing-gate:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.swing-gate:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
-
+  
 .sliding-gate-div {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
-
-  .sliding-gate-div:before, .sliding-gate-div:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.sliding-gate-div:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
 
 
 .road-barrier-div {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
-
-  .road-barrier-div:before, .road-barrier-div:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.road-barrier-div:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
 
 
 .garage-div {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
-
-  .garage-div:before, .garage-div:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.garage-div:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
 
 
 .video-intercom-div {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
 
-  .video-intercom-div:before, .video-intercom-div:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.video-intercom-div:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
-
-
-
-.smart-home-div {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+.smart-home {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
-
-  .smart-home-div:before, .smart-home-div:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.smart-home-div:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
