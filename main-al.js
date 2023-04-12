@@ -1,5 +1,4 @@
-let lang = window.location.pathname.startsWith('/mk/') ? 'mk' : (window.location.pathname.startsWith('/al/') ? 'al' : 'en');
-
+let lang = window.location.pathname.startsWith('/al/') ? 'al' : (window.location.pathname.startsWith('/mk/') ? 'mk' : 'en');
 
 document.querySelector('#language-selector').value = lang;
 

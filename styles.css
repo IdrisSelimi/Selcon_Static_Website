@@ -7,7 +7,6 @@
     padding: 0;
     top: 100%;
     font-family: "Montserrat", sans-serif;
-    background-color: white;
 
 }
 
@@ -54,6 +53,7 @@ header {
 .nav-links li a:hover {
     color: gray;
 }
+
 button {
     padding: 9px 25px;
     border: none;
@@ -105,7 +105,6 @@ h3 {
     text-align: center;
     margin-top: 70px;
     background-color: #24252A;
-    height: 160px;
     padding: 20px;
 
 }
@@ -127,97 +126,16 @@ h3 {
     color: #edf0f1;
 }
 
-.contact {
-    padding: 20px;
-    width: 100%;
-}
-
 .contact-heading{
     font-size: 30px;
+    align-items: center;
 }
 
-.contact-phone-img {
-    width: 90px;
-    margin-left: -450px;
-    margin-right: 10px;
-}
-
-.telephone-number {
-    margin-top: -110px;
-    margin-left: -10px;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px black;
-
-}
-
-.telephone-number2 {
-    font-size: 25px;
-    text-shadow: 1px 1px 1px black;
-    margin-left: 440px;
-    margin-top: -111px;
-}
-
-.contact-email-img {
-    width: 90px;
-    margin-left: -450px;
-    margin-top: 20px;
-    margin-right: 10px;
-
-}
-.email {
-    margin-top: -110px;
-    margin-left: 220px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.contact-facebook-img {
-    width: 90px;
-    margin-left: -450px;
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.facebook-contact {
-    margin-top: -110px;
-    margin-left: 64px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.contact-whatsapp-img {
-    width: 90px;
-    margin-left: -450px;
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.whatsapp-contact {
-    margin-top: -110px;
-    margin-left: -10px;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 1px 1px 1px black;
-}
-
-.contact-viber-img {
-    width: 90px;
-    margin-left: -450px;
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.viber-contact {
-    margin-top: -110px;
-    margin-left: -10px;
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 1px 1px 1px black;
-}
 
 .about {
-    margin-bottom: 20px;
     width: fit-content;
+    height: 40%;
+    margin-bottom: 20px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
     font-size: 18px;
@@ -248,9 +166,10 @@ h3 {
 
 .gate-automation {
     margin-bottom: 10px;
+    height: 10%;
     width: 100%;
     margin-left: 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
 }
@@ -264,8 +183,9 @@ h3 {
 .sliding-gate {
     margin-bottom: 10px;
     width: 100%;
+    height: 10%;
     margin-left: 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
 }
@@ -314,8 +234,9 @@ hr {
 .road-barrier {
     margin-bottom: 10px;
     width: 100%;
+    height: 10%;
     margin-left: 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
 }
@@ -334,8 +255,9 @@ hr {
 .garage-door {
     margin-bottom: 10px;
     width: 100%;
+    height: 10%;
     margin-left: 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
 }
@@ -387,6 +309,7 @@ hr {
 }
 
 .video-intercom-script {
+    height: 40%;
     margin-bottom: 10px;
     width: 100%;
     font-size: 17px;
@@ -410,11 +333,13 @@ hr {
 
 .smart-home {
     width: 100%;
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 120px;
     margin-bottom: 90px;
     overflow: hidden;
-    line-height: 1.7;
+    line-height: 1.5;
+    display:block;
+    height: 40%;
 }
 
 .smart-home p {
@@ -541,3 +466,72 @@ li {
     0px 25px 20px -20px rgba(0,0,0,0.45),
     -25px 0px 20px -20px rgba(0,0,0,0.45);
   }
+
+  .contact {
+    margin: auto;
+    padding: 40px;
+    width: 70%;
+    max-width: 800px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-container {
+    width: 100%;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-info div {
+    margin: 10px 0;
+}
+
+.contact-info div a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact-info div a:hover {
+    text-decoration: underline;
+}
